@@ -63,16 +63,18 @@ combos {
     keymap {
         compatible = "zmk,keymap";
 
-       default_layer {
+default_layer {
     display-name = "Default Layer";
+
     bindings = <
-        &kp Q      &kp L      &kp U        &kp COMMA    &kp DOT        &kp F      &kp W      &kp R      &kp Y      &kp P
-        &kp E      &kp I      &mt LSHIFT A &kp O        &kp MINUS      &kp K      &kp T      &mt LALT N &kp S      &kp H
-        &kp Z      &kp X      &kp C        &kp V        &kp SEMI       &kp G      &kp D      &kp M      &kp J      &kp B
-        &kp ESC  &kp TAB  &kp LGUI  &none  &lt 2 SPACE  &mo 1  &kp BSPC  &lt 3 ENTER  &none  &kp DEL  &kp HOME  &kp END
+        &kp Q    &kp L        &kp U         &kp COMMA     &kp DOT             &kp F       &kp W        &kp R         &kp Y      &kp P
+        &kp E    &mt LALT I   &mt LSHIFT A  &mt LCTRL O   &kp MINUS           &kp K       &mt RCTRL T  &mt RSHIFT N  &mt RALT S &kp H
+        &kp Z    &kp X        &kp C         &kp V         &kp SEMI            &kp G       &kp D        &kp M         &kp J      &kp B
+        &kp ESC  &kp TAB      &kp LGUI      &none         &lt 2 SPACE         &mo 1       &kp BSPC     &lt 3 ENTER    &none      &kp DEL    &kp HOME   &kp END
     >;
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
-        };
+
+    sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+};
 
        layer_1 {
     display-name = "Mouse";
