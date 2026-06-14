@@ -73,7 +73,7 @@ default_layer {
         &kp ESC  &kp TAB      &kp LGUI      &none         &lt 2 SPACE         &mo 1       &kp BSPC     &lt 3 ENTER    &none      &kp DEL    &kp HOME   &kp END
     >;
 
-    sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+    sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
 };
 
        layer_1 {
