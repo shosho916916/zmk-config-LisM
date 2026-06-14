@@ -80,7 +80,7 @@ default_layer {
     display-name = "Mouse";
 
     bindings = <
-        &none      &none      &kp LA(LEFT)  &kp LA(RIGHT)  &none      &kp F7    &kp LG(LEFT)  &kp LG(RIGHT)  &none     &none
+        &none      &none      &kp LA(LEFT)  &kp LA(RIGHT)  &none      &kp F7    &kp LG(LEFT)  &kp LG(RIGHT)  &kp F12     &kp PSCRN
         &kp LC(T)  &kp LC(X)  &kp LC(V)     &kp LC(C)      &none      &kp F2    &mkp MB1      &mkp MB2       &none     &none
         &none      &none      &kp LSHIFT    &kp LCTRL      &none      &kp F8    &kp F5        &kp F12        &none     &none
         &kp ESC    &none      &none         &none          &kp SPACE  &none     &kp BSPC  &kp ENTER     &none          &kp DEL   &none     &none     
